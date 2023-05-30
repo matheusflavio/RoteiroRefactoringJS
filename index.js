@@ -32,7 +32,7 @@ function gerarFaturaStr (fatura, pecas) {
   
       // créditos para próximas contratações
       creditos += Math.max(apre.audiencia - 30, 0);
-      if (peca.tipo === "comedia") 
+      if (peca.tipo === "comedia")
          creditos += Math.floor(apre.audiencia / 5);
   
       // mais uma linha da fatura
